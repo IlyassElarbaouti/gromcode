@@ -4,7 +4,7 @@
 }
 .to-be-learned > ol{
     background-color: orange;
-    color: white;
+    color: green;
 }
 .already-learned > ol > li > ul > li > h4 > code{
     background-color: orange;
