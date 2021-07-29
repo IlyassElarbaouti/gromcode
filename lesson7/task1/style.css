@@ -1,0 +1,8 @@
+a{
+    color: white;
+    background-color: black !important;
+}
+a:visited{
+color: green;
+background-color: orange !important;
+}
