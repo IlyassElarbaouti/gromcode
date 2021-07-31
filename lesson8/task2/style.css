@@ -7,4 +7,6 @@ div{
     border-top: firebrick 10px solid;
     border-right: chartreuse 20px solid;
 font-size: 24px;
-box-sizing:content-box;}
+box-sizing:content-box;
+padding: 20px;
+margin: 50px 100px;}
