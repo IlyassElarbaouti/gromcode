@@ -1,4 +1,6 @@
-
+body {
+  margin: 15px;
+}
 
 /**
  * Render the `main` element consistently in IE.
