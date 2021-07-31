@@ -1,5 +1,6 @@
 body{
     background-color: antiquewhite;
+    margin:10px
 }
 .div1{
     box-sizing: content-box;
@@ -19,3 +20,4 @@ body{
     height: 128px;
     background-color: azure;
 }
+
