@@ -12,5 +12,6 @@
     background-color: green;
 }
 .footer{
-    clear: both;
+    clear:both;
+    box-sizing: border-box;
 }
