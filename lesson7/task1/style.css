@@ -1,8 +1,15 @@
-a{
-    color: white;
-    background-color: black !important;
+a {
+  color: white;
+  background-color: black !important;
 }
-a:visited{
-color: green;
-background-color: orange !important;
+a:visited {
+  color: green;
+  background-color: orange !important;
+}
+button,
+a {
+  border: 3px solid red;
+}
+button:disabled {
+  border: 2px dashed grey;
 }
