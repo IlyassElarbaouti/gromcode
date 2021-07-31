@@ -1,3 +1,6 @@
+body{
+    background-color: antiquewhite;
+}
 .div1{
     box-sizing: content-box;
     border: black 8px solid;
