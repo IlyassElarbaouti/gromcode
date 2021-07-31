@@ -1,0 +1,10 @@
+div{
+    height: auto;
+    width: auto;
+    border: black solid 3px;
+    padding: 50px;
+    background-color: aqua;
+}
+body{
+    padding: 5px;
+}
