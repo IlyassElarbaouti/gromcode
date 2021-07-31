@@ -1,0 +1,19 @@
+div{
+height:auto;
+width: auto;
+padding: 50px;
+border: 2px solid black;
+}
+.div1{
+background-color: blue;
+margin: 50px;
+}
+.div2{
+background-color: yellow;
+}
+.div3{
+background-color: green;
+}
+.div4{
+background-color: pink;
+}
