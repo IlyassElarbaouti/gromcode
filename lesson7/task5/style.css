@@ -4,6 +4,9 @@ body{
 h1{
     color: #9b59b6;
 }
+input{
+    border: 3px solid red;
+}
 h2{
     color: orange;
 }
@@ -26,7 +29,7 @@ input[type='text']{
     background-color: gray;
 }
 div:nth-child(5) p{
-    background-color: hotpink;
+    background-color: yellow;
 }
 div:nth-child(5)  p:nth-child(3){
     border: 5px white solid;
