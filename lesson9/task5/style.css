@@ -16,7 +16,7 @@ nav >ul{
     align-items: center;
 }
 nav >ul >li{
-    float: inline-start;
+    float: left;
     align-items: center;
     margin-left: 16px;
     color: white;
