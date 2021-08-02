@@ -85,5 +85,5 @@ aside > ul{
     list-style: none;
 }
 aside > ul > li{
-margin-bottom: 16px;
+margin: 16px;
 }
