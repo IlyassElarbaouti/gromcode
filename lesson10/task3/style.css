@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 body{
     height: 100vh;
@@ -86,5 +88,5 @@ aside > ul{
     list-style: none;
 }
 aside > ul > li{
-margin-left: 16px;
+margin: 16px;
 }
