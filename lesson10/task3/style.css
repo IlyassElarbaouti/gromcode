@@ -1,7 +1,6 @@
 *{
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+
 }
 body{
     height: 100vh;
@@ -21,13 +20,11 @@ header{
 footer{
     background-color: green;
     display: flex;
-    bottom: 0;
+       align-items: center;
+    justify-content: center;
+}
 
-}
-footer > p{
-    margin: auto;
-}
-div{
+.div1{
     background-color: black;
     height:100%;
     display: flex;
@@ -88,5 +85,5 @@ aside > ul{
     list-style: none;
 }
 aside > ul > li{
-margin: 16px;
+margin-bottom: 16px;
 }
