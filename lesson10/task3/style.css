@@ -46,8 +46,7 @@ aside{
     width: 200px;
     background-color: grey;
     height: 100%;
-    display: flex;
-    flex-direction: column;
+    
 }
 nav{
     height: 100%;
@@ -68,12 +67,7 @@ nav > ul > li{
     line-height: 40px;
     margin-left: 16px;
 }
-aside > ul{
-    height: 40px;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
+
 aside > h2{
     align-items: center;
     text-align: center;
@@ -83,7 +77,11 @@ aside > ul{
     padding: 0;
     margin: 0;
     list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 aside > ul > li{
-margin: 16px;
+margin-bottom: 16px;
+margin-left: 16px;
 }
