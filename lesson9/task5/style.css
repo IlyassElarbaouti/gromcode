@@ -1,15 +1,13 @@
 header{
     background-color: darkturquoise;
     height: 40px;
-    position: relative;
-    top:0px;
-    position: absolute;
+    position: fixed;
     width: 100%;
+    z-index: 6;
 }
 nav{
     height: 40px;
-    position: absolute;
-    top:0;
+
     width: 100%;
     
 
