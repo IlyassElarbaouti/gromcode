@@ -24,30 +24,8 @@ footer{
     justify-content: center;
 }
 
-main{
-    background-color: black;
-    height:100%;
-    display: flex;
-    max-height: 100%;
-}
-section{
-    background-color: pink;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    flex: 1;
-    width: 100%;
-}
-aside{
 
-    width: 200px;
-    background-color: grey;
-    height: 100%;
-    
-}
 nav{
-    height: 100%;
     display: flex;
     align-items: center;
 }
@@ -64,6 +42,24 @@ nav > ul > li{
     display: flex;
     line-height: 40px;
     margin-left: 16px;
+}
+
+main{
+    background-color: black;
+    flex-grow: 1;
+    display: flex ;
+}
+section{
+    background-color: pink;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+aside{
+    width: 200px;
+    background-color: grey;
 }
 
 aside > h2{
