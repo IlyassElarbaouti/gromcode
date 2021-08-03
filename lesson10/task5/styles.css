@@ -7,13 +7,12 @@ header{
     justify-content: center;
 }
 main{
-    flex-shrink: 1;
     display: flex;
     flex-wrap: wrap;
     flex:1;
 }
 .article{
-    
+    flex-shrink: 1;
     flex-grow: 1;
     flex-basis:300px;
     margin: 8px;
