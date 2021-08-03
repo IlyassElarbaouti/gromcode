@@ -28,8 +28,6 @@ main{
     background-color: black;
     height:100%;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     max-height: 100%;
 }
 section{
@@ -82,6 +80,5 @@ aside > ul{
     flex-direction: column;
 }
 aside > ul > li{
-margin-bottom: 16px;
-margin-left: 16px;
+margin-left:16px;
 }

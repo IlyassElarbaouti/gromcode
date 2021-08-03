@@ -1,14 +1,17 @@
-*{
-    box-sizing: border-box;
-}
+
 header{
     display: flex;
     justify-content: center;
 }
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
 .article{
+
+    flex-basis:min-content;
     margin: 8px;
     padding: 16px;
     background-color: bisque;
     min-width: 300px !important;
-    flex-basis: 100vw;
 }
