@@ -1,6 +1,5 @@
 body{
-    display: flex;
-    flex-direction: column;
+box-sizing: border-box;
 }
 header{
     display: flex;
@@ -9,7 +8,6 @@ header{
 main{
     display: flex;
     flex-wrap: wrap;
-    flex:1;
 }
 .article{
     flex-shrink: 0;
