@@ -1,9 +1,14 @@
 .dropdown{
+position: relative;
 margin: 16px;
 min-width: 120px;
  z-index: 1;
+ display: inline-block;
 }
 .menu-list{
+    position: absolute;
+   width: 120px;
+    top:33px;
     list-style: none;
     display: none;
     margin: 0;
