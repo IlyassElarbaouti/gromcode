@@ -4,11 +4,12 @@ margin: 16px;
 min-width: 120px;
  z-index: 1;
  display: inline-block;
+ padding: 16px;
 }
 .menu-list{
     position: absolute;
    width: 120px;
-    top:33px;
+    top:49px;
     list-style: none;
     display: none;
     margin: 0;
@@ -26,7 +27,7 @@ min-width: 120px;
 }
 .menu-button{
     color: white;
-    font-size: 16px;
+    line-height: 16px;
     cursor: pointer;
     padding: 16px;
     background-color: darkgreen;
