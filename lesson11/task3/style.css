@@ -1,6 +1,6 @@
 .dropdown{
  margin: 16px;
- min-width: 120px;
+width: 120px;
  z-index: 1;
 }
 .menu-list{
