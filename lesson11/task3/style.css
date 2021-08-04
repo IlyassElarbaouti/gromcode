@@ -4,12 +4,11 @@ margin: 16px;
 min-width: 120px;
  z-index: 1;
  display: inline-block;
- padding: 16px;
 }
 .menu-list{
     position: absolute;
    width: 120px;
-    top:49px;
+    top:33px;
     list-style: none;
     display: none;
     margin: 0;
