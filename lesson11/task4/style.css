@@ -1,0 +1,14 @@
+.text{
+    position: relative;
+    padding: 16px;
+    text-decoration: underline 1px dotted black;
+}
+.tooltip{
+    position: relative;
+    background-color: grey;
+    border-radius: 4px;
+    padding: 8px;
+    bottom: -40px;
+    color: white;
+    left: -100px;
+}
