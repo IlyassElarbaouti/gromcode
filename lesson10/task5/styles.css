@@ -12,7 +12,7 @@ main{
     flex:1;
 }
 .article{
-    flex-shrink: 1;
+    flex-shrink: 0;
     flex-grow: 1;
     flex-basis:300px;
     margin: 8px;
