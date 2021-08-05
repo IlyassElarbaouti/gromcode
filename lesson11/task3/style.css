@@ -6,7 +6,7 @@ min-width: 120px;
  display: inline-block;
 }
 .menu-list{
-    display: block;
+    min-width:120px ;
     position: absolute;
     top:48px;
     list-style: none;
