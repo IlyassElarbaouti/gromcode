@@ -4,9 +4,9 @@ margin: 16px;
  display: inline-block;
 }
 .menu-list{
+    z-index: 1;
     min-width:120px ;
     position: absolute;
-    top:48px;
     list-style: none;
     display: none;
     margin: 0;
