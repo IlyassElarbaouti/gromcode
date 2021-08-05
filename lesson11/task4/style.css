@@ -1,13 +1,13 @@
 .text{
     display: inline-block;
     padding: 16px;
+    text-decoration: underline 1px dotted black;
 }
-.hover{
-    border-bottom:  1px dotted black;
-}
+
 .tooltip{
+    text-decoration:none;
+    margin: 0px;
     display: block;
-    text-decoration: none ;
     position: relative;
     background-color: grey;
     border-radius: 4px;
