@@ -4,8 +4,11 @@
     padding: 16px;
     text-decoration: underline 1px dotted black;
 }
-
+.text:hover .tooltip{
+    visibility: visible;
+}
 .tooltip{
+    visibility: hidden;
     position: relative;
     text-decoration:none;
     margin: 0px;
