@@ -9,7 +9,7 @@
 }
 .tooltip{
     display: none;
-    position: relative;
+    position: absolute;
     margin: 0px;
     bottom: -40px;
     background-color: grey;
