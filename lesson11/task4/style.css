@@ -5,14 +5,13 @@
     text-decoration: underline 1px dotted black;
 }
 .text:hover .tooltip{
-    visibility: visible;
+    display: block;
 }
 .tooltip{
-    visibility: hidden;
+    display: none;
     position: relative;
-    text-decoration:none;
     margin: 0px;
-    display: block;
+    bottom: -40px;
     background-color: grey;
     border-radius: 4px;
     padding: 8px;
