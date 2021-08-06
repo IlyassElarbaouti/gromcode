@@ -12,6 +12,7 @@ th,table,td{
 }
 th,td{
     padding: 4px;
+    line-height: 20px;
 }
 .container{
     overflow-x: auto;
