@@ -10,7 +10,8 @@ th,table,td{
     border-collapse: collapse;
 }
 th,td{
-        padding: 4px;
+    padding: 4px;
+    line-height: 40px;
     text-align: right;
 }
 .container{
