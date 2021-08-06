@@ -7,3 +7,6 @@
 input , textarea , button , select{
    margin: 8px;
 }
+.radio{
+    margin: 0px;
+}
