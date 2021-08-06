@@ -10,7 +10,7 @@ th,table,td{
     border-collapse: collapse;
 }
 th,td{
-    line-height: 40px;
+        padding: 4px;
     text-align: right;
 }
 .container{
@@ -30,7 +30,4 @@ tfoot{
     font-weight:700 ;}
 caption{
 margin-bottom:8px ;
-}
-tr{
-    padding: 4px;
 }
