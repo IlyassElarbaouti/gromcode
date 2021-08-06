@@ -7,6 +7,6 @@ h1{
     font-size: 96px;
     text-transform: uppercase;
     background: linear-gradient(45deg, yellow 0%, red 100%);
-    -webkit-background-clip:text;
+    background-clip:text;
     -webkit-text-fill-color: transparent;
 }
