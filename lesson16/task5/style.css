@@ -4,9 +4,6 @@
 .input-form{
     margin: 32px;
 }
-input , textarea , button , select{
+.input-control{
    margin: 8px;
-}
-.radio{
-    margin: 0px;
 }
