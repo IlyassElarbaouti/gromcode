@@ -1,6 +1,5 @@
 *{
     box-sizing: border-box;
-    line-height: 40px;
 }
 table{
     width: 500px;
@@ -13,6 +12,7 @@ th,table,td{
 }
 th,td{
     padding: 4px;
+    line-height: 40px;
 }
 .container{
     overflow-x: auto;
