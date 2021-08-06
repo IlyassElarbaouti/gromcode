@@ -1,5 +1,5 @@
 *{
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 table{
     width: 500px;
@@ -11,7 +11,7 @@ th,table,td{
 }
 th,td{
     padding: 4px;
-    line-height: 40px;
+    line-height: 31px;
     text-align: right;
 }
 .container{
