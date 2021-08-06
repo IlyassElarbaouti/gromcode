@@ -2,8 +2,8 @@
     display: flex;
 }
 .image{
-    height: 199px;
-    width: 199px;
+    height: 198px;
+    width: 198px;
     margin: 16px;
     border: 1px dotted grey;
     background-size: contain;
