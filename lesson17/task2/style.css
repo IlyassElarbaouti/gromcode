@@ -28,8 +28,7 @@ tbody > tr:hover{
     color: white;
 }
 tfoot{
-    font-weight:700 ;
-}
-tfoot > tr > td{
+    font-weight:700 ;}
+th,td{
 margin-bottom:8px ;
 }
