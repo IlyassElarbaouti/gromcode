@@ -32,3 +32,6 @@ tfoot{
 caption{
 margin-bottom:8px ;
 }
+tr{
+    padding: 4px;
+}
