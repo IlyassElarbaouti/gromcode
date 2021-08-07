@@ -15,20 +15,18 @@ button{
     line-height: 50px;
     vertical-align: center;
 }
-button:hover{
-    color: darkcyan;
-}
+
 svg{fill: white;
     height: 32px;
     width: 32px;
-    margin-top: 9px;
     vertical-align: middle;
 
 }
 button:hover{
-    color: green;
+    color: darkcyan;
 }
-button:hover svg{
+
+button:hover .bird{
     fill: green;
 }
 
