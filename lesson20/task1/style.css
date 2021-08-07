@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0 32px;
+  padding: 8px;
+  background-color: antiquewhite;
+  display: inline-block;
+  border-radius: 4px;
+}
+.square{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    height: 100px;
+    width: 100px;
+    background-color: tomato;
+    transform: rotate(45deg) scale(1.5);
+
+}
