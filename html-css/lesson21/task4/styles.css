@@ -69,8 +69,8 @@ justify-content: space-between;
     color: white;
     line-height: 2em;
      margin-bottom: 0.5em;
-     margin-left: 0.5em;
-     margin-right: 0.5em;
+     padding-left: 0.5em;
+     padding-right: 0.5em;
 }
 a{
     display: block;
