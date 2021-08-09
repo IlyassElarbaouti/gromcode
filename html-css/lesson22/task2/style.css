@@ -1,9 +1,11 @@
 
 .div1{
     background-color: #ff7f50;
+    flex-grow: 1;
 }
 .div2{
     background-color: #006400;
+     flex-grow: 1;
 }
 .div3{
     background-color: #0ff;
@@ -23,7 +25,7 @@ span{
     border-radius: 4px;
     margin: auto;
 }
-@media screen and (min-width:601px) {
+@media screen and (min-width:600px) {
    
     .products{
       display: flex;
@@ -34,7 +36,7 @@ span{
     }
 
 }
-@media screen and (min-width:899px) {
+@media screen and (min-width:900px) {
    
     body{
       display: flex;
