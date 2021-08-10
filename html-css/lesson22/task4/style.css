@@ -38,10 +38,13 @@ li{
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    
 }
 a{
+    line-height: 2em;
     text-decoration: none;
     color: white;
+    margin: 0.5em;
 }
 @media screen and (max-width:599px){
     nav{
