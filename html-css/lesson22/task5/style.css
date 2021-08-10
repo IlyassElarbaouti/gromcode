@@ -64,9 +64,10 @@ justify-content: space-between;
 }
 
 a{
+    display: block;
     text-decoration: none;
     color: white;
-    overflow:hidden;
+    overflow: hidden;
     max-width: 100%;
     white-space:nowrap;
     text-overflow: ellipsis;
@@ -75,21 +76,19 @@ a{
 /*responsive*/
 .main{
     display: flex;
-    flex: 1;
+
     flex-direction: column;
 
 }
 .navigation{
     padding: 0.5em;
-    flex: 1;
+
 } 
 .news{
     padding: 0.5em;
-    flex: 1;
 }  
 .section{
     padding: 0.5em;
-    flex: 1;
 }
 
 
@@ -106,18 +105,27 @@ a{
     .container{
         flex-direction: row;}
         .section{
-            flex: 4;
+            width: 80%;
         }
-   
+        .navigation{
+            width: 20%;
+        }
 }
 @media screen and (min-width:900px){
     .main{
         flex-direction: row;
     }
-    .container{
-        flex:4 ;
+    .news{
+        width: 20%;
     }
-    .section{
-        flex: 3;
+    .container{
+        width: 80%;
+    }
+    .navigation{
+            width: 25%;
         }
+    .section{
+            width: 75%;
+        }
+
 }
