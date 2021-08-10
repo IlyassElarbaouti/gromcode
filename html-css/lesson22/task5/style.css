@@ -78,7 +78,7 @@ a{
 /*responsive*/
 .main{
     display: flex;
-    margin-bottom: 10vh;
+    margin-bottom: 20vh;
     flex-direction: column;
 
 }
