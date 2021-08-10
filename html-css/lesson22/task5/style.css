@@ -9,12 +9,12 @@ html{
     font-size: 16px;
 }
 body{
-    position: absolute;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
 
 }
+
 .header{
 background: linear-gradient(60deg, red , orange);
 }
@@ -30,16 +30,10 @@ width: 100%;
 text-align: center;
 justify-content: space-between;
 }
-.main{
-    display: flex;
-    flex: 1;
-
+.img{
+    max-width: 100%;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
 }
-.navigation , .news , .section{
-    padding: 0.5em;
-    flex: 1;
-}
-
 .section{
     font-size: 1.25em;
 }
@@ -60,11 +54,6 @@ justify-content: space-between;
     padding: 0;
     list-style: none;
 }
-.container{
-    display: flex;
-    flex-direction: column;
-    flex:2;
-}
 .nav-list>li{
     background-color: #808080;
     color: white;
@@ -73,8 +62,8 @@ justify-content: space-between;
      padding-left: 0.5em;
      padding-right: 0.5em;
 }
+
 a{
-    display: block;
     text-decoration: none;
     color: white;
     overflow:hidden;
@@ -82,13 +71,36 @@ a{
     white-space:nowrap;
     text-overflow: ellipsis;
 }
-.img{
-    max-width: 100%;
-    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+/*----------------------------------*/
+/*responsive*/
+.main{
+    display: flex;
+    flex: 1;
+
 }
-     .main{
+.navigation{
+    padding: 0.5em;
+    flex: 1;
+} 
+.news{
+    padding: 0.5em;
+    flex: 1;
+}  
+.section{
+    padding: 0.5em;
+    flex: 1;
+}
+
+.main{
         flex-direction: column;
     }
+.container{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
 
 
 @media screen and (min-width:600px){
@@ -97,7 +109,6 @@ a{
         .section{
             flex: 4;
         }
-
    
 }
 @media screen and (min-width:900px){
@@ -105,10 +116,9 @@ a{
         flex-direction: row;
     }
     .container{
-        flex:4;
+        flex:4 ;
     }
     .section{
-            flex: 3;
+        flex: 3;
         }
-   
 }
