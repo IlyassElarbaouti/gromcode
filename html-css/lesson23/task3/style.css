@@ -20,6 +20,7 @@ nav {
   height: 3em;
   padding-left: 8px;
   padding-right: 8px;
+  color: white;
 }
 .menu__item:hover {
   background-color: #9acd32;
